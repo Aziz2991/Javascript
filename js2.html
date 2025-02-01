@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<h1>javascript about light on/off</h1>
+<p id="light">Light is off</p>
+<button onclick="lighton()">Turn on light</button>
+<button onclick="lightoff()">Light is off</button>
+
+</body>
+<Script>
+function lighton()
+{
+    document.getElementById("light").innerHTML = "light is on";
+    window.alert("bulb has on");
+}
+ function lightoff()
+ {
+    document.getElementById("light").innerHTML = "light is off";
+    window.alert("bulb has off");
+    console.log("Y bulb hy");
+ }
+
+</Script>
+
+</html>

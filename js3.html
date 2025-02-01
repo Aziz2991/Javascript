@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My First javascript</h2>
+    
+    <p id="bulb">Bulb is off</p>
+    <button onclick="bulbon()">turn on bulb</button>
+    <button onclick="bulboff()">turn off bulb</button>
+    <br>
+    <p id="light">Light is off</p>
+    <button onclick="lighton()">Turn on Light</button>
+    <button onclick="lightoff()">Turn off Light</button>
+</body>
+<script>
+function bulbon(){
+    document.getElementById("bulb").innerHTML = "bulb is on";
+}
+function bulboff(){
+    document.getElementById("bulb").innerHTML = "bulb is off";
+}
+
+function lighton()
+{
+    document.getElementById("light").innerHTML = "Light is on";
+}
+function lightoff()
+{
+    document.getElementById("light").innerHTML = "Light is off";
+}
+var name = "Zeeshan";
+var name = "Ali";
+document.write(" write from head" + name);
+</script>
+</html>
