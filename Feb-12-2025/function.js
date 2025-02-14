@@ -46,12 +46,18 @@
 //     var abc = 'ghous ahmed'
 //     return abc;
 // }
-// console.log(ad())
-var products = ['Laptop','phone','tablet','smartwatch']
-function displayProducts(){let list= document.getElementById('productlist')
+// // console.log(ad())
+// var products = ['Laptop','phone','tablet','smartwatch']
+// function displayProducts(){let list= document.getElementById('productlist')
 
-list.innerHTML = products.forEach(products =>{let li = document.createElement('li')})
+// list.innerHTML = products.forEach(products =>{let li = document.createElement('li')})
 
 
+// }
+// for(i = 0; i < products.length; i++){}
+let students = ['umer','hashir','naveed'];
+let scores = [320,230,480]
+let totalMarks = 500;
+for(let i = 0; i < students.length; i ++){let percentage = (scores[i]/totalMarks)* 100;
+    document.write(`Scores of ${students[i]} is $ {scores[i]} . Percentage:${percentage}%<br>`);
 }
-for(i = 0; i < products.length; i++){}
