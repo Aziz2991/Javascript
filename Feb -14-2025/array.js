@@ -63,3 +63,12 @@
 // // let get = num.at(2)
 // let get = num.length
 // console.log(get)
+//  let tasks = [];Array to stroe tasks
+let tasks = [];
+function addTask(task){tasks.push(task);
+    console.log(`Added:$ {task}`)
+}
+function showTasks() {console.log('To-Do List:',tasks)}
+function removeTask(){task.pop();
+    console.log('Last Task removed')
+}
